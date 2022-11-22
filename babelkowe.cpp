@@ -9,7 +9,7 @@ void printArray(int arr[], int n) {
     cout << "\n";
 }
 
-void Kopcowanie(int arr[], int n) {
+void Bable(int arr[], int n) {
     for (int i = 1; i < n; ++i) {
         for (int c = 0; c < n - 1; ++c)
             if (arr[c] > arr[c + 1])
@@ -29,7 +29,7 @@ int main (){
         arr[i] = 5+rand()%(30-5+1);
         cout << arr[i] << ' ';
     }
-    Kopcowanie(arr, n);
+    Bable(arr, n);
 
   cout << "\nSorted array: ";
     printArray(arr, n);
