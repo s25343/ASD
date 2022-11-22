@@ -1,0 +1,13 @@
+Sortowania 
+
+Quicksort - 25,67
+Bąbelkowe sortowanie - 56,45
+Kopcowanie - 25,32
+Quicksort odwrotny - 24,56
+Bąbelkowe sortowanie odwrotne - 57,12
+Kopcowanie odwrotne - 24,98
+
+Sortowałam 200 tysiąc liczb
+Wniosek moim zdaniem jest taki: Quicksort jest naiszybsze sortowanie ale najliepiej dziala z mniejsza iloscia danych(przed tym sortowalam jeszcze 100tys i 10tys), ale kopcowanie dziala lepiej, jezeli nie mamy pamiec ograniczana, bo zajmuje O(1) przestrzeni pomocnicza, porownajec do Quicksorta(ktory zajmuje O(n log n) przestrzeni)
+Co do Babelkowego sortowania to jest najdluzsze i nie nadaje sie do praktycznego zastosowania. 
+Na koncu moge dodac ze Quicksort jest najszybczy algorytm sortowania, co jest dokladnie tym co muwi tytul.
